@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bakery Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class=" "></i> Haru's Sunshine Bakery</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#product">product</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+
+    <!-- header end -->
+
+    <!-- shopping cart -->
+
+    <div class="cart-items-container">
+
+        <div id="close-form" class="fas fa-times"></div>
+        <h3 class="title">checkout</h3>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/mara.jpg" alt="">
+            <div class="content">
+                <h3>Macarons</h3>
+                <div class="price">$30.00/1</div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/panques.jpg" alt="">
+            <div class="content">
+                <h3>Panques Esponjosos</h3>
+                <div class="price">$65.00/1</div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/helado.jpg" alt="">
+            <div class="content">
+                <h3>Helado de fresa</h3>
+                <div class="price">$60.00/1</div>
+            </div>
+        </div>
+
+        <a href="#" class="btn"> checkout </a>
+
+    </div>
+
+    <!-- shopping cart end-->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url(images/ban.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>💖Lugar lleno de luz y alegría, con los postres más deliciosos💖</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+
+    <!-- about us -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/abo.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Bienvenidos a <span>Haru's Sunshine Bakery</span> </h3>
+                <p>un lugar lleno de luz y alegría donde podrás encontrar los dulces más deliciosos. 
+                En nuestra repostería, nos enorgullece ofrecerte una amplia variedad de productos frescos 
+                y hechos a mano, desde pasteles y tartas hasta galletas y cupcakes. 
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- about us end-->
+
+    <!-- product -->
+
+    <section class="product" id="product">
+
+        <h1 class="heading">our <span> products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/wafles.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Waffles</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$75.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/panf.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pastel de fresa</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$80.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/fresa.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sandwich de fresa </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="price">$60.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/mara.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>macarons</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$30.00 c/u</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/panques.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>panques esponjosos</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="price">$65.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/helado.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Helado</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="price">$60.00</span>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- product end--> 
+
+    <!-- review -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/review-1.png" class="user" alt="">
+                <h3>David mark</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"Los postres de esta repostería son una verdadera maravilla. ¡Siempre salgo con una sonrisa en el rostro!"</p>
+            </div>
+
+            <div class="box">
+                <img src="images/review-2.png" class="user" alt="">
+                <h3>Ruby  altuzar</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>"En Haru's Sunshine Bakery se nota que utilizan ingredientes de calidad en sus postres. ¡Se nota en cada bocado!"</p>
+            </div>
+
+            <div class="box">
+                <img src="images/review-3.png" class="user" alt="">
+                <h3>Miguel hernandez</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"El ambiente en Haru's Sunshine Bakery es acogedor y relajante. ¡Perfecto para disfrutar de un buen postre!"</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review -->
+
+    <!-- order -->
+
+    <section class="order" id="order">
+
+        <h1 class="heading"><span>order</span> now </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/order.gif" alt="">
+            </div>
+
+            <form action="">
+
+                <div class="inputBox">
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                </div>
+
+                <div class="inputBox">
+                    <input type="email" placeholder="email address">
+                    <input type="number" placeholder="phone number">
+                </div>
+
+                <div class="inputBox">
+                    <input type="text" placeholder="food name">
+                    <input type="number" placeholder="how much">
+                </div>
+
+                <textarea placeholder="your address" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="order now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- order end -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>address</h3>
+                <p>Calle de la Rosa #15 Oaxaca de Juarez Oaxaca.</p>
+                <div class="share">
+                    <a href="https://www.facebook.com" class="fab fa-facebook-f"></a>
+                    <a href="https://www.twitter.com" class="fab fa-twitter"></a>
+                    <a href="https://www.instagram.com" class="fab fa-instagram"></a>
+                    <a href="https://www.linkedin.com" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>E-mail</h3>
+                <a href="#" class="link">Haru'sSunshineBakery@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>call us</h3>
+                <p>+52 (951) 1478 236</p>
+                <p>+52 (951) 1245 184</p>
+            </div>
+
+            <div class="box">
+                <h3> opening hours</h3>
+                <p>Lunes - viernes: 8:00 - 7:30 <br> Sabado: 9:00 - 5:00 </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- footer ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .gallery-container'));
+    </script>
+
+
+</body>
+</html>
