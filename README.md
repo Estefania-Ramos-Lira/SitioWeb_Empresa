@@ -64,7 +64,7 @@ Y por ultimo al presionar la opción del carrito de compras se podra visualizar 
 
 ESTEFANIA RAMOS LIRA - [19161392@itoaxaca.edu.mx]
 
-Project Link: [https://github.com/Estefania-Ramos-Lira/CCT-maps.git)
+Project Link: [https://github.com/Estefania-Ramos-Lira/SitioWeb_Empresa.git)
 
 
 
